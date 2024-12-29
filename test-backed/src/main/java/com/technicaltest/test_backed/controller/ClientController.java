@@ -18,7 +18,7 @@ import com.technicaltest.test_backed.exception.ClientNotFoundException;
 @RestController
 @RequestMapping("/api/v1/clientes")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "http://localhost:4200")
 public class ClientController {
     private final ClientService clientService;
      /**
